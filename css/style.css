@@ -3,7 +3,6 @@
     background: url(../image/large_back.jpg);
     color: white;
 }
-
 div {
     /*width: 100px;	height: 100px; !* Размеры *!*/
     /*background: #fc0; !* Цвет фона *!*/
@@ -11,28 +10,14 @@ div {
     /*border: 3px solid #fff; !* Белая рамка *!*/
     /*border-radius: 10px; !* Радиус скругления *!*/
 }
-
-
 #container {
     text-align: center;
     margin: 0;
     padding: 0;
 }
-.img {
-    z-index: 0;
-    float: left;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-}
-.img a img {
-    position: relative;
-    border: none;
-}
 .clear {
     clear: both;
 }
-
 .box {
     /*outline: 2px solid #000; !* Чёрная рамка *!*/
     border: 1px solid #fff; /* Белая рамка */
