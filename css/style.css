@@ -3,6 +3,21 @@
     background: url(../image/large_back.jpg);
     color: white;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+    body {
+        background: url(../image/xsmall_back.png);
+
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        font: inherit;
+
+        font: 18px/23px "Cantarell", sans-serif;
+        color: #ffffff;
+    }
+}
 div {
     /*width: 100px;	height: 100px; !* Размеры *!*/
     /*background: #fc0; !* Цвет фона *!*/
@@ -22,13 +37,16 @@ div {
     /*outline: 2px solid #000; !* Чёрная рамка *!*/
     border: 1px solid #fff; /* Белая рамка */
     border-radius: 5px; /* Радиус скругления */
-    margin: 30px;
-    padding: 30px;
-    height: auto;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
 }
 .box button{
-    /*visibility: hidden;*/
+    display: none;
 }
 .box p{
-    /*visibility: hidden;*/
+    display: none;
+}
+.pole {
+    /*height: 370px;*/
 }
