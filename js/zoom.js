@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     $(".box").hover(function() {
         // при наведении курсора мыши
         $(this).css("background-color", "white");
