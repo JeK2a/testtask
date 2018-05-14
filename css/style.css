@@ -1,13 +1,29 @@
 ﻿body {
     align-content: center;
     text-align: center;
-    background: url(../image/large_back.jpg);
     color: white;
+    background: url(../image/large_back.jpg);
 }
-/* Media Queries */
+.box a {
+    align-self: center;
+    background: url(../image/next.png);
+    display: block; /*  Рисунок как блочный элемент */
+    width: 32px;    /* Ширина рисунка */
+    height: 32px;   /*  Высота рисунка */
+}
+.box:hover a {
+    background: url(../image/next.png);
+    display: none;  /*  Рисунок как блочный элемент */
+    width: 32px;    /* Ширина рисунка */
+    height: 32px;   /*  Высота рисунка */
+}
 @media only screen and (max-width: 767px) {
     body {
-        background: url(../image/xsmall_back.png);
+        background: url(../image/xsmall_back.png) no-repeat;
+        -moz-background-size: 100%; /* Firefox 3.6+ */
+        -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+        -o-background-size: 100%; /* Opera 9.6+ */
+        background-size: 100%; /* Современные браузеры */
 
         margin: 0;
         padding: 0;
@@ -16,6 +32,18 @@
 
         font: 18px/23px "Cantarell", sans-serif;
         color: #ffffff;
+    }
+    .box a {
+        background: url(../image/download.png);
+        display: block; /*  Рисунок как блочный элемент */
+        width: 32px;    /* Ширина рисунка */
+        height: 32px;   /*  Высота рисунка */
+    }
+    .box:hover a {
+        background: url(../image/download2.png);
+        display: block; /*  Рисунок как блочный элемент */
+        width: 32px;    /* Ширина рисунка */
+        height: 32px;   /*  Высота рисунка */
     }
 }
 #container {
@@ -35,18 +63,17 @@
 
     background-color: unset;
     color: white;
-    height: 200px;
-
-    /*transition-duration: 1s;*/
+    height: auto;
 }
 .box:hover{
     background-color: white;
     color: black;
-    height: auto;
-    display: block;
+    /*height: auto;*/
+    /*display: block;*/
 }
 .box p, .box button{
     display: none;
+    height: 0;
 }
 .box:hover p, .box:hover button{
     display: block;
@@ -54,4 +81,5 @@
     alignment: center;
     align-items: center;
     alignment-baseline: center;
+    height: auto;
 }

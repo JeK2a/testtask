@@ -38,7 +38,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
                         <h5>IT Administrator</h5>
-                        <h6>Generate and deliver audit and compliance reports faster.</h6>
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+                                <h6>Generate and deliver audit and compliance reports faster.</h6>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                                <a href="#"></a>
+                            </div>
+                        </div>
                         <p>
                             Stop spending time on manual scripting and consolidation of audit data whenever you need reports about who’s making changes to IT systems or who has permissions to what.
                         </p>
@@ -48,7 +57,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
                         <h5>IT Security Administrator</h5>
-                        <h6>Investigate suspicious user activity before the data breach occurs.</h6>
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+                                <h6>Investigate suspicious user activity before the data breach occurs.</h6>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                                <a href="#"></a>
+                            </div>
+                        </div>
                         <p>
                             Enable security audit and keep yourself notified on the critical changes in the IT environment. Whenever you see an action that violates your security policy, remain assured that you can investigate why it happened and prevent similar incidents from occurring.
                         </p>
@@ -58,7 +76,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
                         <h5>IT Manager</h5>
-                        <h6>Take back control over your IT infrastructure and eliminate stress of your next compliance audit.</h6>
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+                                <h6>Take back control over your IT infrastructure and eliminate stress of your next compliance audit.</h6>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                                <a href="#"></a>
+                            </div>
+                        </div>
                         <p>
                             See how often changes are made, which users are making changes, which systems are affected, who has access to what and more. Address compliance auditors’ questions faster and involving less resources of your staff.
                         </p>
@@ -70,7 +97,17 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
                         <h5>IT Director, CIO/CISO</h5>
-                        <h6>Mitigate security risks and minimize compliance costs.</h6>
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+                                <h6>Mitigate security risks and minimize compliance costs.</h6>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                                <a href="#"></a>
+                            </div>
+                        </div>
+
                         <p>
                             Protect your organization from attackers who managed to bypass your perimeter security (firewalls, anti-viruses, etc.) and avoid fines for non-compliance with regulatory standards.
                         </p>
@@ -80,7 +117,16 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
                         <h5>MSP</h5>
-                        <h6>Enable visibility of managed environments and monetize on offering “Compliance as a Service”.</h6>
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+                                <h6>Generate and deliver audit and compliance reports faster.</h6>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                                <a href="#"></a>
+                            </div>
+                        </div>
                         <p>
                             Whether you are planning on adding new services to increase customer revenue or adding differentiated services that show more value to your customer, Netwrix has a business model to support your revenue goals.
                         </p>
@@ -89,6 +135,9 @@
                 </div>
             </div>
         </div>
+
+        <p><a href="#" class="rollover"> </a></p>
+
     </div>
 </body>
 </html>
