@@ -1,9 +1,9 @@
 ﻿body {
+    align-content: center;
     text-align: center;
     background: url(../image/large_back.jpg);
     color: white;
 }
-
 /* Media Queries */
 @media only screen and (max-width: 767px) {
     body {
@@ -18,15 +18,7 @@
         color: #ffffff;
     }
 }
-div {
-    /*width: 100px;	height: 100px; !* Размеры *!*/
-    /*background: #fc0; !* Цвет фона *!*/
-    /*outline: 2px solid #000; !* Чёрная рамка *!*/
-    /*border: 3px solid #fff; !* Белая рамка *!*/
-    /*border-radius: 10px; !* Радиус скругления *!*/
-}
 #container {
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -40,13 +32,26 @@ div {
     margin: 10px;
     padding: 20px;
     height: 200px;
+
+    background-color: unset;
+    color: white;
+    height: 200px;
+
+    /*transition-duration: 1s;*/
 }
-.box button{
+.box:hover{
+    background-color: white;
+    color: black;
+    height: auto;
+    display: block;
+}
+.box p, .box button{
     display: none;
 }
-.box p{
-    display: none;
-}
-.pole {
-    /*height: 370px;*/
+.box:hover p, .box:hover button{
+    display: block;
+    align-content: center;
+    alignment: center;
+    align-items: center;
+    alignment-baseline: center;
 }
