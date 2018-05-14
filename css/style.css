@@ -12,14 +12,14 @@ div{
     align-self: center;
     background: url(../image/next.png);
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
 }
 .box:hover a {
     background: url(../image/next.png);
     display: none;
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
 }
 @media only screen and (max-width: 767px) {
     body {
@@ -45,16 +45,16 @@ div{
         text-align: center;
     }
     .box a {
-        background: url(../image/download.png);
+        background: url(../image/download24.png);
         display: block; /*  Рисунок как блочный элемент */
-        width: 20px;    /* Ширина рисунка */
-        height: 20px;   /*  Высота рисунка */
+        width: 24px;    /* Ширина рисунка */
+        height: 24px;   /*  Высота рисунка */
     }
     .box:hover a {
-        background: url(../image/download2.png);
+        background: url(../image/download24_2.png);
         display: block; /*  Рисунок как блочный элемент */
-        width: 20px;    /* Ширина рисунка */
-        height: 20px;   /*  Высота рисунка */
+        width: 24px;    /* Ширина рисунка */
+        height: 24px;   /*  Высота рисунка */
     }
 }
 #container {
