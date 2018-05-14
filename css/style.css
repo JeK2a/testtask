@@ -5,8 +5,9 @@
     background: url(../image/large_back.jpg);
     font-size: 80%;
 }
-div{
-    /*border: solid 1px black;*/
+a, button {
+    margin:auto;
+    display:block;
 }
 .box a {
     align-self: center;
@@ -28,42 +29,23 @@ div{
         -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
         -o-background-size: 100%;      /* Opera 9.6+ */
         background-size: 100%;         /* Современные браузеры */
-
-        margin: 0;
-        padding: 0;
-        font-size: 100%;
-        font: inherit;
-
-        /*font: 18px/23px "Cantarell", sans-serif;*/
-        color: #ffffff;
-    }
-    a {
-        align-self: center;
-        alignment: center;
-        alignment-baseline: center;
-        align-items: center;
-        text-align: center;
     }
     .box a {
         background: url(../image/download24.png);
-        display: block; /*  Рисунок как блочный элемент */
-        width: 24px;    /* Ширина рисунка */
-        height: 24px;   /*  Высота рисунка */
+        display: block;
+        width: 24px;
+        height: 24px;
     }
     .box:hover a {
         background: url(../image/download24_2.png);
-        display: block; /*  Рисунок как блочный элемент */
-        width: 24px;    /* Ширина рисунка */
-        height: 24px;   /*  Высота рисунка */
+        display: block;
+        width: 24px;
+        height: 24px;
     }
 }
-#container {
-    margin: 0;
-    padding: 0;
-}
 .box {
-    border: 1px solid #fff; /* Белая рамка */
-    border-radius: 5px; /* Радиус скругления */
+    border: 1px solid #fff;
+    border-radius: 5px;
     margin: 10px;
     padding: 20px;
     background-color: unset;
@@ -80,9 +62,5 @@ div{
 }
 .box:hover p, .box:hover button {
     display: block;
-    align-content: center;
-    alignment: center;
-    align-items: center;
-    alignment-baseline: center;
     height: auto;
 }
