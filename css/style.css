@@ -5,10 +5,6 @@
     background: url(../image/large_back.jpg);
     font-size: 80%;
 }
-a, button {
-    margin:auto;
-    display:block;
-}
 .box a {
     align-self: center;
     background: url(../image/next.png);
@@ -24,7 +20,7 @@ a, button {
 }
 @media only screen and (max-width: 767px) {
     body {
-        background: url(../image/xsmall_back.png) no-repeat;
+        background: url(../image/xsmall_back.png);
         -moz-background-size: 100%;    /* Firefox 3.6+ */
         -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
         -o-background-size: 100%;      /* Opera 9.6+ */
@@ -43,18 +39,25 @@ a, button {
         height: 24px;
     }
 }
+a, button {
+    margin:auto;
+    display:block;
+}
 .box {
     border: 1px solid #fff;
     border-radius: 5px;
-    margin: 10px;
-    padding: 20px;
+    margin: 20px;
+    padding: 30px;
     background-color: unset;
     color: white;
     height: auto;
+    top: -50px;
 }
 .box:hover {
     background-color: white;
     color: black;
+    position: absolute;
+    z-index: 1;
 }
 .box p, .box button {
     display: none;

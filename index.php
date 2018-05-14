@@ -11,22 +11,14 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/style.css"/>
 
-<!--    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>-->
-<!--    <link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css"/>-->
-
-<!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>-->
-<!--    <script src="/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>-->
-
-<!--    <script src="/js/jquery-1.6.2.js" type="text/javascript"></script>-->
     <title>test_task</title>
 </head>
 <body>
     <div class="container">
         <div id="header">
-            <br>
-            <h1>Address the IT auditing challenges of your department and your business with Netwrix Auditor</h1>
-            <br>
+            <br><br><br>
+            <h2>Address the IT auditing challenges of your department and your business with Netwrix Auditor</h2>
+            <br><br><br>
         </div>
         <div id="page">
             <div id="content" class="row">
@@ -70,6 +62,27 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
+                        <h5>MSP</h5>
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+                                <h6>Generate and deliver audit and compliance reports faster.</h6>
+                                <p>
+                                    Whether you are planning on adding new services to increase customer revenue or adding differentiated services that show more value to your customer, Netwrix has a business model to support your revenue goals.
+                                </p>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Request Demo</button>
+                    </div>
+                </div>
+                <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
                         <h5>IT Manager</h5>
                         <div class="row">
                             <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
@@ -86,8 +99,6 @@
                         </div>
                         <button type="button" class="btn btn-primary">Request Demo</button>
                     </div>
-                </div>
-                <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="box">
@@ -106,25 +117,6 @@
                             </div>
                         </div>
                         <button type="button" class="btn btn-primary">Request Pricing</button>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <div class="box">
-                        <h5>MSP</h5>
-                        <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
-                            </div>
-                            <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
-                                <h6>Generate and deliver audit and compliance reports faster.</h6>
-                                <p>
-                                    Whether you are planning on adding new services to increase customer revenue or adding differentiated services that show more value to your customer, Netwrix has a business model to support your revenue goals.
-                                </p>
-                            </div>
-                            <div class="col-xs-1 col-sm-1 col-md-12 col-lg-12">
-                                <a href="#"></a>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-primary">Request Demo</button>
                     </div>
                 </div>
             </div>
